@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    padding: 100px;
+}
+
+.card1, .card2{
+    border: 2px solid red;
+    height:100px;
+    margin:40px;
+}
+
+.card1 .box-cont{
+    width:40%;
+    border:blue 4px solid;   
+}
+
+.card2 .box-cont{
+    width:40%;  
+    border:blue 4px solid; 
+}

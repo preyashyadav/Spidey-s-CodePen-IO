@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(78, 80, 78);
+}
+
+span{
+    padding: 4rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:absolute;
+    transition: all 0.25s linear;
+    border-radius: 2rem;
+}
+
+span:first-child{
+    background-color: black;
+    color:white;    
+}
+
+span:last-child{
+    background-color: white;
+    color: black; 
+    clip-path: polygon(63% 0, 100% 0, 100% 100%, 31% 100%);
+
+}
+
+span:last-child:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+span:first-child:hover ~ span{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+}
